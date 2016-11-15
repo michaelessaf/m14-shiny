@@ -2,13 +2,13 @@
 library(shiny)
 library(plotly)
 shinyUI(navbarPage('Electoral College',
-                   # Create a tab panel for your map
+                   # Create a tab panel for your map 
                    tabPanel('Map',
                             titlePanel('Electoral College Votes'),
                             # Create sidebar layout
                             sidebarLayout(
                               
-                              # Side panel for controls
+                             
                               sidebarPanel(
                                 
                                 # Input to select variable to map
@@ -42,5 +42,8 @@ shinyUI(navbarPage('Electoral College',
                                 plotlyOutput('scatter')
                               )
                             )
-                   )
+                   
+              
+                   
+                   
 ))
